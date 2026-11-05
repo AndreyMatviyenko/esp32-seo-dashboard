@@ -1,0 +1,30 @@
+# Local credentials and configuration
+secrets.h
+credentials*.json
+client_secret*.json
+token*.json
+secrets.json
+crux_api_key.txt
+.private/
+private/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local tooling and generated firmware (may contain credentials)
+.venv/
+__pycache__/
+*.py[cod]
+build/
+.build/
+.pio/
+*.bin
+*.elf
+*.map
+*.hex
+
+# macOS
+.DS_Store
+._*
