@@ -3,7 +3,7 @@
 ## Waveshare e-Paper example
 
 The driver, drawing helpers, and font sources in
-`firmware/Webfonts_AdSense_Live/` originate from Waveshare's Arduino
+`firmware/SEO_Dashboard/` originate from Waveshare's Arduino
 `epd2in9_V2` example:
 
 - Upstream repository: https://github.com/waveshareteam/e-Paper
