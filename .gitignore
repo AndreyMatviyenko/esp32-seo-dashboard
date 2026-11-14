@@ -25,6 +25,29 @@ build/
 *.map
 *.hex
 
+# CAD backups, temporary files and printer-specific toolpaths
+/3D/**/*.FCStd[0-9]*
+/3D/**/*.FCBak
+/3D/**/*.styled.FCStd
+/3D/**/*.bak
+/3D/**/*.tmp
+/3D/**/*.log
+/3D/**/*.gcode
+/3D/**/*.bgcode
+
+# Local board references and intermediate CAD exports
+/3D/reference/
+/3D/output/parts-stl/
+/3D/output/parts-step/esp32 c3 supermini.step
+/3D/output/parts-step/Waveshare 2.9 epaper module.step
+/3D/output/assembly/*_complete.step
+/3D/output/validation*.json
+/3D/output/print-audit.json
+/3D/output/reused-parts.json
+
+# Local generated previews; published photographs are in docs/images/
+/3D/output/preview/*
+
 # macOS
 .DS_Store
 ._*
